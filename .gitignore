@@ -1,0 +1,34 @@
+# Carpetas pesadas y temporales de Unity
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/obj/
+
+# Ignora carpetas de compilación (con build, Build, buil o Buil)
+/[Bb]uild*/
+/[Bb]uil*/
+
+# Archivos de soluciones que Unity regenera automáticamente
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# Configuraciones locales de usuario
+/[Pp]rojectSettings/EditorUserSettings.asset
+/[Pp]rojectSettings/EditorUserBuildSettings.asset
+
+# Archivos ocultos del sistema y editores
+.DS_Store
+Thumbs.db
+.vs/
